@@ -6,7 +6,7 @@
 statsite-config:
   file.managed:
     - name: {{ statsite.config }}
-    - source: salt://statsite/files/example.tmpl
+    - source: salt://statsite/files/example.conf
     - mode: 644
     - user: root
     - group: root

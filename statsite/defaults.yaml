@@ -2,6 +2,6 @@
 # vim: ft=yaml
 statsite:
   pkg: statsite
-  config: '/etc/statsite'
+  config: '/etc/statsite.conf'
   service:
     name: statsite
